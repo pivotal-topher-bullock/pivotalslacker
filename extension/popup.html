@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Pivotal Slacker</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="handlebars.min.js"></script>
+    <script src="jquery-1.11.1.min.js"></script>
+  </head>
+  <body>
+    <h1 id="title"> <img src= "http://d3jgo56a5b0my0.cloudfront.net/next/assets/tracker-components/logo-a3f6aafd9d44c9699c9b9d6ec13fd015.png"/>  Pivotal Slacker </h1>
+    <textarea id="copyArea">
+    </textarea>
+    <br/>
+    <button id="copyStories">Copy Selected Stories</button>
+  </body>
+
+  <script id=template type="text">{{math @index "+" 1}}. {{this.name}} [https://www.pivotaltracker.com/story/show/{{this.id}}] [Points:{{this.points}}]
+  </script>
+
+  <script src="popup.js"></script>
+</html>
+
