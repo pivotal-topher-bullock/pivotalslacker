@@ -3,6 +3,12 @@
   "name": "Pivotal Slacker",
   "description": "a lazy way to copy story details",
   "version": "1.0",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png",
+    "1024" : "icon.png"
+  },
   "permissions": [
     "https://www.pivotaltracker.com/", "activeTab"
   ],
